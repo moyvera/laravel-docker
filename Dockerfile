@@ -55,7 +55,7 @@ RUN docker-php-ext-install \
     gd \
     zip \
     bcmath
-    exif \
+RUN docker-php-ext-install exif
 # Install composer
 ENV COMPOSER_HOME /composer
 ENV PATH ./vendor/bin:/composer/vendor/bin:$PATH
