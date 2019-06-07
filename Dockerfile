@@ -22,8 +22,8 @@ RUN apk add --no-cache \
     libpng-dev \
     make \
     mysql-client \
-    nodejs \
-    nodejs-npm \
+    nodejs@latest \
+    nodejs-npm@latest \
     yarn \
     openssh-client \
     postgresql-libs \
