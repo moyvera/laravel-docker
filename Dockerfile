@@ -29,8 +29,7 @@ RUN apk add --no-cache \
     postgresql-libs \
     rsync \
     zlib-dev \
-    libzip-dev \
-    phpunit
+    libzip-dev 
 
 # Install PECL and PEAR extensions
 RUN pecl install \
